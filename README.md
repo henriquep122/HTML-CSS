@@ -1,2 +1,2 @@
 # HTML-CSS
-Aprendo desenvolvimento WEB
+Aprendendo desenvolvimento WEB
