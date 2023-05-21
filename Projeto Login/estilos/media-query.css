@@ -2,6 +2,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px){
   
+/*Tablet*/
+
   body{
     background-image: linear-gradient(to top, #49a09d, #5f2c82);
   }
@@ -18,6 +20,30 @@
     float: right;
     width: 70%;
   }
+
+  form > input[type=submit]{
+    width: 60%;
+    margin: auto;
+  }
+  form > a.botao{
+    width: 60%;
+    margin: auto;
+  }
+
+  form > div.campo{
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    div#formulario > h1{
+      text-align: center;
+      font-size: 1.6em;
+    }
+  
+    div#formulario > p{
+      text-align: center;
+      font-size: 1em;
+      margin: 10px 0px;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -41,9 +67,25 @@
 
   div#formulario > h1{
     font-size: 2em;
+    text-align: center;
   }
 
   div#formulario > p{
     font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  form > input[type=submit]{
+    width: 60%;
+    margin: auto;
+  }
+  form > a.botao{
+    width: 60%;
+    margin: auto;
+  }
+
+  form > div.campo{
+  background-image: linear-gradient(to top, #49a09d, #5f2c82);
   }
 }
